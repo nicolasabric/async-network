@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.osx.frameworks        = 'CFNetwork', 'Security'
   s.osx.deployment_target = '10.7'
   s.ios.frameworks        = 'CFNetwork', 'Security'
-  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '8.0'
+  s.tvos.frameworks        = 'CFNetwork', 'Security'
+  s.tvos.deployment_target = "9.0"
   s.dependency 'CocoaAsyncSocket'
 end
